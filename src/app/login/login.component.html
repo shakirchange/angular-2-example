@@ -1,0 +1,47 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">            
+                <div class="form-body" style="text-align:center">
+                    <h1>
+                      Welcome to {{ title }}!
+                    </h1>
+                      <form name="loginForm" id="loginForm" (ngSubmit)="loginForm();">
+                        <h3>Login Form</h3>
+                        <div class="form-group">        
+                          <input name="uname" #uname="ngModel" forbiddenName="aaa" type="text" class="form-control" maxlength="13" minlength="4" [(ngModel)]="username" placeholder="Username" required>
+                          <div *ngIf="uname.invalid && (uname.touched || uname.dirty)" class="alert alert-danger">
+                            <div *ngIf="uname.errors.required">
+                              Name is required
+                            </div>
+                            <div *ngIf="uname.errors.minlength">
+                              Name cannot be less than 4 characters.
+                            </div>
+                            <div *ngIf="uname.errors.maxlength">
+                              Name cannot be less than 10 characters.
+                            </div>                            
+                            <div *ngIf="uname.errors.forbiddenName">
+                              Name cannot be aaa.
+                            </div>
+                          </div>
+                          <input name="pass" #pass="ngModel" type="password" class="form-control" [(ngModel)]="password" placeholder="Password" required>  
+                          <div *ngIf="pass.invalid &&(pass.touched || pass.dirty)" class="alert alert-danger">
+                            <div *ngIf="pass.errors.required">
+                              Password is required
+                            </div>
+                            <div *ngIf="pass.errors.minlength">
+                              Password cannot be less than 4 characters.
+                            </div>
+                            <div *ngIf="pass.errors.maxlength">
+                              Password cannot be less than 10 characters.
+                            </div>
+                          </div>
+                        </div>
+
+                        <button class="btn submit-button">Submit</button>
+                      </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </div>

@@ -1,0 +1,34 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MyApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" routerLink="/home">Home</a>
+      <a class="nav-item nav-link" routerLink="/home/shop">Shop</a>
+      <a class="nav-item nav-link" routerLink="/home/food-bawarchi">Food Bawarchi</a>
+      <a class="nav-item nav-link" routerLink="/home/movie-details">Movie Details</a>
+    </div>
+    
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+  </div>
+</nav>
+<div class="directive" dir-content></div>
+<div class="dire"><h2> Custom Element Practice</h2>
+  <!-- <div>
+    <input type="radio" name="color" (click)="color = 'green'">Green
+    <input type="radio" name="color" (click)="color = 'red'">Red
+    <input type="radio" name="color" (click)="color = 'yellow'">Yellow
+    <p [appHighlet]="color">Highlet me</p>
+    <p [appHighlet]="color" defaultColor="violet"> Highlet me too</p>
+  </div>  -->
+<router-outlet></router-outlet>
+
+<app-shakir dir-content></app-shakir>
+

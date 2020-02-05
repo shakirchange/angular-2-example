@@ -1,0 +1,38 @@
+{"theaters": [{
+    "id": "1",
+    "name": "Asian",
+    "src": "assets/images/asian.jpg",
+    "address": "Uppal, Hyderabad",
+    "description": "Asian Cinemas presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+},{
+    "id": "2",
+    "name": "Rajya Lakshmi",
+    "src": "assets/images/rj.jpg",
+    "address": "Uppal X Road, Hyderabad",
+    "description": "Rajya Laskhmi Cinemas presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+},{
+    "id": "3",
+    "name": "Srinavasa",
+    "src": "assets/images/sai.jpg",
+    "address": "Uppal",
+    "description": "Srinavasa Cinemas presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+},{
+    "id": "4",
+    "name": "In Orbit",
+    "src": "assets/images/inorbit.jpg",
+    "address": "Hitech",
+    "description": "PVR In Orbit presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+},{
+    "id": "5",
+    "name": "Galaxy",
+    "src": "assets/images/galaxy.jpg",
+    "address": "Tolichowki",
+    "description": "Galaxy Theater presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+},{
+    "id": "6",
+    "name": "PVR ",
+    "src": "assets/images/pvr.jpg",
+    "address": "Madhapur",
+    "description": "PVR Madhapur Cinemas presents world-class movie experiences at an affordable price. Our chain of multiplexes and Cineplexes are designed to offer best in class facilities and comfort with high-end movie and sound experiences at an absolutely affordable cost. Asian Multiplexes Private Limited is a media and entertainment company based in Hyderabad, India. In a very short span of time, Asian Cinemas has made a mark in the Industry as well as the heart of the audience with world-class movie experience in Hyderabad and parts of Telangana."
+
+}]} 

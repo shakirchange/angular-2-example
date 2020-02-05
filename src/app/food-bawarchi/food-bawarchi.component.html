@@ -1,0 +1,39 @@
+<div class="container">
+  <div *ngIf="hotelDetails; then heroDetailsHeader; else noResultsFound"></div>
+  <ng-template #heroDetailsHeader><h3> Restaurants Details Table</h3></ng-template>
+  <ng-template #noResultsFound><h3>No Restaurants available for now</h3></ng-template>
+  <input type="text" (ngMode)="search">
+  <table class="table table-striped table-responsive" style="margin-top: 20px">
+    <tr>
+      <th>S.NO</th>
+      <th>Name</th>
+      <th>Image</th>
+      <th>Description</th>
+      <th>Address</th>
+    </tr>
+    
+    <tr *ngFor="let food of hotelDetails">
+        <td>{{food.id | exponentialStrength :10 }}</td>
+        <td>{{food.name | uppercase}}</td>
+        <td><img src="{{food.src}}"></td>
+        <td>{{food.description}}</td>
+        <td>{{food?.address}}</td>
+    </tr>
+  </table>
+  <div>
+    <h3>One Special Item of Some Restaurants</h3>
+    <div *ngFor="let food of hotelDetails">  
+      <ul [ngSwitch]="food.name" >
+          <li *ngSwitchCase="'SVM Grand'" >SVM Grand => Tangdi kabab</li>
+          <li *ngSwitchCase="'Tulips'">Tulips => Chinese Soup</li>
+          <li *ngSwitchCase="'Suruchi'">Suruchi => Kakinada Spicy Chicken</li>
+          <li *ngSwitchCase="'Sampoorna'">Sampoorna => Tangdi kabab</li>
+          <li *ngSwitchCase="'Yalla'">Yalla => South Indian Thali</li>
+          <li *ngSwitchCase="'Yum Yum Tree'">Yum Yum Tree => Arabian Mandi</li>
+          <li *ngSwitchDefault></li>
+        </ul>
+    </div>
+  </div>
+  
+</div>
+<app-shakir dir-content></app-shakir>

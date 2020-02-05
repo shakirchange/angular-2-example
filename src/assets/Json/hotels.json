@@ -1,0 +1,38 @@
+{"hotels": [{
+    "id": "1",
+    "name": "SVM Grand",
+    "src": "assets/images/svm.jpg",
+    "address": "",
+    "description": "SVM is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+},{
+    "id": "2",
+    "name": "Tulips",
+    "src": "assets/images/tulips.jpg",
+    "address": "Bodduap, Hyderabad",
+    "description": "Tulips is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+},{
+    "id": "3",
+    "name": "Sampoorna",
+    "src": "assets/images/sampoorna.jpg",
+    "address": "",
+    "description": "Sampoorna is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+},{
+    "id": "4",
+    "name": "Yalla",
+    "src": "assets/images/yalla.jpg",
+    "address": "Annojiguda",
+    "description": "Yalla is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+},{
+    "id": "5",
+    "name": "Suruchi",
+    "src": "assets/images/suruchi.jpg",
+    "address": "",
+    "description": "Suruchi is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+},{
+    "id": "6",
+    "name": "Yum Yum Tree",
+    "src": "assets/images/yum.jpg",
+    "address": "Medipally",
+    "description": "Yum Yum Tree is one of the best serving Restaurant in Hyderabad, We have so many branches in Hyderabad, In reasonable price we serve food conpare to other restaurants "
+
+}]}    
